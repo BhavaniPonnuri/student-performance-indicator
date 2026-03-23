@@ -22,13 +22,13 @@ Target Feature:
     * This preprocessor is saved as pickle file.
 
 3. Model Training : 
-    * In this phase base model is tested on different machine learning regression algorithms such as LinearRegression, DecisionTreeRegressor, KNeighborsRegressor, XGBRegressor, AdaBoostRegressor, GradientBoostingRegressor, RandomForestRegressor,CatboostRegressor. The best model found was CatboostRegressor.
-    * After this hyperparameter tuning is performed on Decision Tree, Gradient Boosting Regressor, Random Forest Regressor, XGB Regressor, AdaBoost Regressor, Catboost Regressor.
-    * A final model is created with the CatboostRegressor.
+    * In this phase base model is tested on different machine learning regression algorithms such as LinearRegression, DecisionTreeRegressor, KNeighborsRegressor, XGBRegressor, AdaBoostRegressor, GradientBoostingRegressor, RandomForestRegressor. The best model found was Linear Regression.
+    * After this hyperparameter tuning is performed on Decision Tree, Gradient Boosting Regressor, Random Forest Regressor, XGB Regressor, AdaBoost Regressor.
+    * A final model is created with the Linear Regression.
     * This model is saved as pickle file.
 
 4. Prediction Pipeline : 
     * This pipeline converts given data into dataframe and has various functions to load pickle files and predict the final results in python.
 
 5. Flask App creation : 
-    * Flask app is created with User Interface to predict the gemstone prices inside a Web Application.
+    * Flask app is created with User Interface to predict the Student performance in Render site.
